@@ -35,9 +35,11 @@ $ composer require rahulshibu/laravel-model-encrypter
 
 1. Use the `LaravelModelEncrypter\Traits\DBEncryptor` trait in any Eloquent model that you wish to use encryption
 2. Define a `protected $encryptable` array containing a list of the encrypted attributes.
+3. Define the encryption key in .env file. Default encrption key will be empty.
 
 For example:
 
+Model
 ```php
     
     use LaravelModelEncrypter\Traits\DBEncryptor;
@@ -52,6 +54,13 @@ For example:
         ];
     }
 ```
+
+ENV
+
+```bash
+ENCRYPT_KEY=abcd1234
+```
+
 
 3. You can use Laravel's original $casts to cast decrypted values
 
