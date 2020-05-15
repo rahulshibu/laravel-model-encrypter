@@ -26,7 +26,7 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "rahulshibu\\LaravelModelEncrypter\\": "src/"
+      "LaravelModelEncrypter\\": "src/"
     }
   },
   "authors": [
