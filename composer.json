@@ -1,0 +1,45 @@
+{
+  "name": "rahulshibu/laravel-model-encrypter",
+  "description": "Provides database model attribute encryption/decryption",
+  "keywords": [
+    "attribute",
+    "database",
+    "database encryption",
+    "database encrypter",
+    "decrypt",
+    "decrypted",
+    "decryption",
+    "eloquent",
+    "encrypt",
+    "encrypter",
+    "encryption",
+    "laravel",
+    "laravel db encryption",
+    "laravel db encrypter",
+    "laravel database encryption",
+    "laravel database encrypter",
+    "laravel model encryption",
+    "laravel model encrypter",
+    "laravel attribute encrypter",
+    "laravel attribute encryption"
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "betterapp\\LaravelDbEncrypter\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Rahul",
+      "email": "rahulshibu321@gmail.com",
+      "homepage": "https://github.com/rahulshibu",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "ext-openssl": "*"
+  },
+  "minimum-stability": "stable"
+}
